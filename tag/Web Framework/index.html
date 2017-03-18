@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta http-equiv="cleartype" content="on">
+<link rel="alternate" type="application/atom+xml" title="VeriPress Demo" href="/demo/feed.xml"/>
+
+<!-- Link common CSS and JavaScript files -->
+<link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+<link href="/demo/static/style.css" rel="stylesheet">
+<link href="/demo/static/bootstrap-theme-cosmo.min.css" rel="stylesheet">
+<link rel="shortcut icon" type="image/x-icon" href="/demo/static/favicon.ico">
+  
+  <title>Web Framework - Tag - VeriPress Demo</title>
+
+</head>
+<body>
+
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-12 site-header">
+            <h1><a href="/demo/">VeriPress Demo</a><br>
+  <small>Yet another VeriPress blog.</small>
+</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 nav-container">
+            <ul class="nav nav-tabs">
+  <li><a href="/demo/">Blog</a></li>
+  <li><a href="/demo/about/">About</a></li>
+  <li><a href="/demo/archive/">Archive</a></li>
+</ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        
+
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h3 class="panel-title">
+        Archive
+        <i class="fa fa-fw fa-angle-right"></i>
+      </h3>
+    </div>
+    <div class="panel-body">
+      <article>
+        <h1>Tag: Web Framework</h1>
+        <hr>
+
+        
+
+          <table class="table table-hover">
+            <tbody>
+            
+              <tr>
+                <td class="text-right"
+                    style="border-top: none; width: 15%;">2010.4.1</td>
+                <td style="border-top: none"><a href="/demo/post/2010/04/01/viverra-imperdiet/">Viverra Imperdiet</a></td>
+              </tr>
+            
+            </tbody>
+          </table>
+
+          
+
+        
+      </article>
+    </div>
+  </div>
+
+
+      </div>
+      <div id="sidebar" class="col-md-4">
+        
+
+
+  <div class="panel panel-primary">
+    <div class="panel-body">
+      <h4>My Name</h4>
+<p>Welcome to my blog!</p>
+    </div>
+  </div>
+
+  <div class="panel panel-primary">
+    <div class="panel-body">
+      <h4>Friend Links</h4>
+<ul>
+<li><a href="https://stdrc.cc">Project RC</a></li>
+<li><a href="https://github.com/veripress/veripress">VeriPress</a></li>
+</ul>
+    </div>
+  </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="section">
+          <div class="container">
+            <hr>
+            <div class="row">
+              <div class="col-sm-12 text-center">
+                <span>&copy; Copyright 2017 My Name.</span>
+                <br class="hidden-sm hidden-md hidden-lg">
+                <span>Powered by <a href="https://github.com/BlogTANG/veripress">VeriPress</a>.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <script type="text/javascript">
+    var elems = document.getElementsByTagName("a");
+    for (var i = 0; i < elems.length; i++) {
+        if (elems[i].href.indexOf(document.domain) < 0) {
+            elems[i].target = "_blank";
+        }
+    }
+    var navLinks = document.querySelectorAll(".nav-tabs li a");
+    for (i = 0; i < navLinks.length; i++) {
+        if (document.location.href === navLinks[i].href) {
+            navLinks[i].parentElement.classList.add("active");
+        }
+    }
+    if (!document.getElementById("fix-style-color")) {
+        var a = document.getElementsByTagName("a")[0];
+        var color = window.getComputedStyle(a).color;
+        var css = ".site-header h1 a:hover, .site-header h1 a:focus, h1" +
+            "{ color: " + color + "; }";
+        style = document.createElement("style");
+        style.id = "fix-style-color";
+        if (style.styleSheet) {
+            style.styleSheet.cssText = css;
+        } else {
+            style.appendChild(document.createTextNode(css));
+        }
+        document.getElementsByTagName("head")[0].appendChild(style);
+    }
+</script>
+
+
+</body>
+</html>
