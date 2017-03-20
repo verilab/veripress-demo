@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh_CN">
+<feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://localhost/demo/</id>
   <title>VeriPress Demo</title>
-  <updated>2017-03-19T14:15:02.080876+00:00</updated>
+  <updated>2017-03-20T04:38:36.514426+00:00</updated>
   <author>
     <name>My Name</name>
     <email>someone@example.com</email>
