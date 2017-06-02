@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title type="text">VeriPress Demo</title>
   <id>https://veripress.github.io/demo/feed.xml</id>
-  <updated>2017-03-16T00:00:00+08:00</updated>
+  <updated>2017-06-02T00:00:00+08:00</updated>
   <link href="https://veripress.github.io/demo" />
   <link href="https://veripress.github.io/demo/feed.xml" rel="self" />
   <author>
@@ -10,6 +10,109 @@
   </author>
   <subtitle type="text">Yet another VeriPress blog.</subtitle>
   <generator>Werkzeug</generator>
+  <entry xml:base="https://veripress.github.io/demo/feed.xml">
+    <title type="text">Markdown Demo</title>
+    <id>/post/2017/06/02/markdown-demo/</id>
+    <updated>2017-06-02T00:00:00+08:00</updated>
+    <published>2017-06-02T00:00:00+08:00</published>
+    <link href="https://veripress.github.io/demo/post/2017/06/02/markdown-demo/" />
+    <author>
+      <name>My Name</name>
+    </author>
+    <content type="html">&lt;h1&gt;This is a header 1&lt;/h1&gt;
+&lt;h2&gt;This is a header 2&lt;/h2&gt;
+&lt;h3&gt;This is a header 3&lt;/h3&gt;
+&lt;h4&gt;This is a header 4&lt;/h4&gt;
+&lt;h5&gt;This is a header 5&lt;/h5&gt;
+&lt;h6&gt;This is a header 6&lt;/h6&gt;
+&lt;p&gt;This is a paragraph with &lt;em&gt;italic&lt;/em&gt; and &lt;strong&gt;strong&lt;/strong&gt; words.&lt;/p&gt;
+&lt;p&gt;This is an unordered list:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Item 1&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Item 2&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Item 2.1&lt;/li&gt;
+&lt;li&gt;Item 2.2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is a paragraph under Item 2.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Item 3&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;and an ordered list:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Item 1&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Item 2&lt;/p&gt;
+&lt;p&gt;Another paragraph under a list item, with a &lt;a href=&quot;https://github.com/veripress/veripress&quot;&gt;link&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Item 3&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Item 3.1&lt;/li&gt;
+&lt;li&gt;Item 3.2&lt;ol&gt;
+&lt;li&gt;Item 3.2.1&lt;/li&gt;
+&lt;li&gt;Item 3.2.2&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Item 4&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This is an image &lt;img alt=&quot;Logo&quot; src=&quot;../../../../../../static/favicon.ico&quot;&gt;, and an image with link &lt;a href=&quot;https://github.com/veripress/veripress&quot;&gt;&lt;img alt=&quot;Logo&quot; src=&quot;../../../../../../static/favicon.ico&quot;&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is inline code &lt;code&gt;hello word&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Block quote:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is a quote.&lt;/p&gt;
+&lt;p&gt;And the second line.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Code block:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Hello, world!&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;#include&lt;/span&gt; &lt;span class=&quot;cpf&quot;&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;Hello, world!&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Code block with no language specified
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;A horizontal line:&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Something Complex&lt;/h2&gt;
+&lt;h3&gt;&lt;code&gt;inline code&lt;/code&gt; in header&lt;/h3&gt;
+&lt;h3&gt;&lt;em&gt;italic&lt;/em&gt; in header&lt;/h3&gt;
+&lt;p&gt;Table:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Foo&lt;/th&gt;
+&lt;th&gt;Bar&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;2 with &lt;code&gt;code&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;4 with line&lt;br&gt;break&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;中文标题&lt;/h3&gt;
+&lt;p&gt;中文段落……以及&lt;strong&gt;粗体&lt;/strong&gt;。&lt;/p&gt;</content>
+  </entry>
   <entry xml:base="https://veripress.github.io/demo/feed.xml">
     <title type="text">Lorem Ipsum</title>
     <id>/post/2017/03/16/viverra/</id>
@@ -173,20 +276,5 @@ Aliquam sit amet justo eget mi eleifend lobortis. Phasellus vulputate erat erat,
 &lt;h2&gt;Interdum Turpis&lt;/h2&gt;
 &lt;p&gt;Aenean tincidunt justo eu neque consequat, non interdum turpis tempor. Sed blandit ante odio, non viverra eros molestie sit amet. Quisque cursus congue purus eu hendrerit. Vivamus eu placerat erat. Aliquam non sem imperdiet, mattis nibh vel, aliquam felis. Proin at condimentum magna. Nulla purus ipsum, rhoncus a maximus at, bibendum et nunc. Vivamus quis semper purus. Vivamus blandit nulla nec neque facilisis, eu tincidunt quam commodo. Phasellus imperdiet elit et placerat lacinia. Morbi tempor risus sit amet felis ornare, eget porta dolor vehicula.&lt;/p&gt;
 &lt;p&gt;Proin nec enim erat. Pellentesque in mi et velit lobortis commodo. Suspendisse nulla enim, mattis placerat tellus id, hendrerit cursus massa. Suspendisse id dui in lacus porta volutpat. Suspendisse potenti. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer consectetur eget magna vitae auctor. Nulla nec neque odio.&lt;/p&gt;</content>
-  </entry>
-  <entry xml:base="https://veripress.github.io/demo/feed.xml">
-    <title type="text">Sollicitudin Aliquam Metus</title>
-    <id>/post/1990/12/30/sollicitudin-aliquam-metus/</id>
-    <updated>1990-12-30T00:00:00+08:00</updated>
-    <published>1990-12-30T00:00:00+08:00</published>
-    <link href="https://veripress.github.io/demo/post/1990/12/30/sollicitudin-aliquam-metus/" />
-    <author>
-      <name>My Name</name>
-    </author>
-    <content type="html">&lt;p&gt;Vestibulum lacinia neque eget ante lacinia vulputate. Praesent tristique, elit nec dapibus dapibus, dui odio pellentesque neque, ut ultricies elit mauris tincidunt ex. Integer lobortis imperdiet lorem, nec sollicitudin mi. Nunc tincidunt mauris a tempus accumsan. Mauris sit amet mi dolor. Aenean at vehicula augue. In hac habitasse platea dictumst.&lt;/p&gt;
-&lt;p&gt;Duis sollicitudin aliquam metus, at gravida orci tempus vel. Phasellus feugiat aliquet justo, in aliquam lacus maximus vitae. In a lacus vitae turpis rutrum suscipit ac vel urna. Nunc at ligula nec lacus dictum posuere. Quisque id tortor interdum, varius diam at, tincidunt tellus. Donec tincidunt lacus ut leo convallis facilisis. Etiam sed tempus nisi, ut tincidunt mi. Praesent ex libero, varius vel risus id, interdum ullamcorper justo. Nam volutpat sed quam vel accumsan. Proin non justo mauris. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse tristique erat ut eros maximus scelerisque. Cras vehicula orci lobortis, tincidunt elit ut, tempus sem. Donec efficitur turpis sit amet ante vestibulum fringilla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.&lt;/p&gt;
-&lt;p&gt;Fusce vitae enim sed lorem interdum dapibus at vitae lectus. Phasellus velit urna, placerat a laoreet lobortis, pharetra non tortor. Suspendisse justo massa, posuere non pretium non, tincidunt eu dui. Duis venenatis orci leo, at maximus arcu iaculis et. Mauris dapibus, nisi ut gravida consectetur, massa purus tincidunt nisl, eu vehicula quam ligula ac justo. Curabitur ut porta quam, et porttitor mi. Proin lobortis tortor ut leo vulputate, ac suscipit orci tincidunt.&lt;/p&gt;
-&lt;p&gt;Donec aliquet luctus vehicula. Donec pharetra ante mi, sit amet rutrum magna euismod non. Nulla interdum justo pretium elit consequat sollicitudin. Maecenas eu mi nec neque efficitur sodales et nec odio. Nunc lectus ex, aliquet posuere commodo eu, rutrum id orci. Nulla in diam ligula. Integer pellentesque in nisl quis congue. Vestibulum consequat porttitor lectus sit amet aliquam. In auctor ultrices justo sit amet pharetra. Nam feugiat iaculis mauris nec volutpat. Morbi libero lorem, iaculis et elit nec, egestas rutrum lorem. Integer consectetur imperdiet vestibulum.&lt;/p&gt;
-&lt;p&gt;Cras pretium nulla ut sem molestie mollis. Donec vitae mollis nisi. Nunc nec ipsum felis. Curabitur tempus id erat sed cursus. Pellentesque eget sem nec elit pulvinar hendrerit sit amet ut dui. Donec sed vestibulum justo. Curabitur lacinia tortor eu nisl pulvinar, sed ornare dui faucibus. Duis at ullamcorper lectus. Maecenas ante tortor, sodales vitae tempus quis, consectetur non est.&lt;/p&gt;</content>
   </entry>
 </feed>
